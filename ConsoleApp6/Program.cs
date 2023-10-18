@@ -28,6 +28,7 @@ public class MainClass
 
 
                 Console.Write(num1[i]);
+                Console.Write(num1[i]);
 
 
             }
