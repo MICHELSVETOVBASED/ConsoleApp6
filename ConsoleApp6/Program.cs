@@ -1,33 +1,35 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
+
 
 public class MainClass
 {
     public static void Main()
     {
         string num1 = Console.ReadLine();
-        int Length = num1.Length;
+        int[] intnum = new int[num1.Length];
+        for (int i = 0; i < num1.Length; i++)
+        {
+            int n = (int)char.GetNumericValue(num1[i]);
+            intnum[i] = n;
+        }
+        int[] newints = new int[intnum.Length];
+        string [] sum = new string[num1.Length];
 
-
-
-        string [] sum = new string[; 
         for ( int i = 0; i<num1.Length; i++ )
         {
-            for ( int j = i+1; j < num1.Length; j++ )
+            if 
             {
-                if (num1[i] == num1[j])
-                {
-                    continue;
-                }
-                else if (num1[i].Equals(sum))
-                {
-                    continue;
-                }
-                else 
-                {
-                    sum += num1[i];
-                    C   
-                }
+                continue;
+            }
+            else 
+            {
+
+
+                Console.Write(num1[i]);
+
+
             }
         }
 
