@@ -38,5 +38,6 @@ public class MainClass
             
         }
         Console.WriteLine(s);
+        Console.WriteLine(s);
     }
 }
